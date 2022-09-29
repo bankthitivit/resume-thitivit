@@ -42,11 +42,21 @@ text-lg text-white bg-[#292C36]"
         </div>
       </div>
       <div className="App-navigator-header absolute top-2">
-        <span className="m-5">About Me</span>
-        <span className="m-5">Experiences</span>
-        <span className="m-5">Skills</span>
-        <span className="m-5">Educations</span>
-        <span className="m-5 mr-28">Contact</span>
+        <a href="#about-me">
+          <span className="m-5">About Me</span>
+        </a>
+        <a href="#experiences">
+          <span className="m-5">Experiences</span>
+        </a>
+        <a href="#skills">
+          <span className="m-5">Skills</span>
+        </a>
+        <a href="#educations">
+          <span className="m-5">Educations</span>
+        </a>
+        <a href="#contact">
+          <span className="m-5 mr-28">Contact</span>
+        </a>
       </div>
     </header>
   );

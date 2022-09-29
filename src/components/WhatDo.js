@@ -1,6 +1,9 @@
 function WhatDo() {
   return (
-    <section className="pb-32 pt-16 flex flex-col items-center justify-center bg-[#212121]">
+    <section
+      id="experiences"
+      className="pb-32 pt-16 flex flex-col items-center justify-center bg-[#212121]"
+    >
       <div className="w-96 ml-9 flex flex-col items-center justify-center">
         <h1 className="text-2xl text-[#4C70EF] pt-5">WHAT I DO</h1>
         <h1 className="text-4xl text-white pt-5 pb-12">Experiences</h1>

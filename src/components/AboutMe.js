@@ -1,7 +1,10 @@
 import ImageAboutMe from "../images/image-about-me.png";
 function AboutMe() {
   return (
-    <section className="pb-32 pt-32 flex flex-row items-start justify-center bg-[#212121]">
+    <section
+      id="about-me"
+      className="pb-32 pt-32 flex flex-row items-start justify-center bg-[#212121]"
+    >
       <img src={ImageAboutMe} />
       <div className="w-96 ml-9">
         <h1 className="text-2xl text-[#4C70EF] pt-5">ABOUT ME</h1>

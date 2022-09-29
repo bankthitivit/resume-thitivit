@@ -3,7 +3,10 @@ import IconsTel from "../images/icons-tel.png";
 
 function Contact() {
   return (
-    <section className="pb-32 pt-16 flex flex-col items-center justify-center bg-[#212121]">
+    <section
+      id="contact"
+      className="pb-32 pt-16 flex flex-col items-center justify-center bg-[#212121]"
+    >
       <div className="flex flex-row items-start justify-start">
         <div className="bg-[#292C36] w-[80vw] rounded-full pt-10 pb-8 mt-8 flex flex-col items-center justify-center">
           <h1 className="text-white text-3xl bg-[#86787873] rounded-xl p-5 pl-28 pr-28">

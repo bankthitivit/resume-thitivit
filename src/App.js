@@ -5,6 +5,7 @@ import { WhatDo } from "./components/WhatDo";
 import { Educations } from "./components/Educations";
 import { Skills } from "./components/Skills";
 import { Contact } from "./components/Contact";
+import { Footer } from "./components/Footer";
 function App() {
   return (
     <div className="w-screen h-screen bg-[#212121]">
@@ -16,6 +17,7 @@ function App() {
       </div>
       <WhatDo />
       <Contact />
+      <Footer />
     </div>
   );
 }

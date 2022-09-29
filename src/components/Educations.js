@@ -1,6 +1,9 @@
 function Educations() {
   return (
-    <section className="pb-32 pt-10 flex flex-row items-start justify-center bg-[#212121]">
+    <section
+      id="educations"
+      className="pb-32 pt-10 flex flex-row items-start justify-center bg-[#212121]"
+    >
       <div className="w-96 ml-9">
         <h1 className="text-2xl text-[#4C70EF] pt-5">EDUCATIONS</h1>
 
