@@ -7,7 +7,10 @@ import IconsTailwind from "../images/icons-tailwind.png";
 
 function Skills() {
   return (
-    <section className="w-96 pb-32 pt-10 flex flex-row items-center justify-center bg-[#212121]">
+    <section
+      id="skills"
+      className="pr-40 md:pr-0 w-96 pb-32 pt-10 flex flex-row items-center justify-center bg-[#212121]"
+    >
       <div className="ml-[60%]">
         <h1 className="text-2xl text-[#4C70EF] pt-5 flex flex-row items-center justify-center">
           SKILLS

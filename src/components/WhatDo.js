@@ -1,12 +1,15 @@
 function WhatDo() {
   return (
-    <section className="pb-32 pt-16 flex flex-col items-center justify-center bg-[#212121]">
+    <section
+      id="experiences"
+      className="pb-32 pt-16 flex flex-col items-center justify-center bg-[#212121]"
+    >
       <div className="w-96 ml-9 flex flex-col items-center justify-center">
         <h1 className="text-2xl text-[#4C70EF] pt-5">WHAT I DO</h1>
         <h1 className="text-4xl text-white pt-5 pb-12">Experiences</h1>
       </div>
-      <div className="flex flex-row items-start justify-start">
-        <div className="bg-[#292C36] rounded-xl pt-10 pb-10 mt-8 flex flex-col items-center justify-center">
+      <div className="flex md:flex-row flex-col items-start justify-start">
+        <div className="bg-[#292C36] rounded-xl sm:mr-0 mr-3 sm:ml-0 ml-0 pt-10 pb-10 mt-8 flex flex-col items-center justify-center">
           <h1 className="text-white text-3xl ">Studying</h1>
           <div>
             <div className=" mt-6 w-96 ml-9 flex flex-col items-start justify-center">
@@ -38,7 +41,7 @@ function WhatDo() {
             </div>
           </div>
         </div>
-        <div className="bg-[#292C36] ml-10 rounded-xl pt-10 pb-10 mt-8 flex flex-col items-center justify-center">
+        <div className="bg-[#292C36] md:mr-0 mr-3 md:ml-10 ml-0 rounded-xl pt-10 pb-10 mt-8 flex flex-col items-center justify-center">
           <h1 className="text-white text-3xl ">Software Engineer</h1>
           <h1 className="text-white text-2xl pt-4 ">Trinergy Instrument</h1>
           <h1 className="text-white text-1xl pt-4 ">1 Year</h1>
@@ -69,7 +72,7 @@ function WhatDo() {
             </div>
           </div>
         </div>
-        <div className="bg-[#292C36] ml-10 rounded-xl pt-10 pb-10 mt-8 flex flex-col items-center justify-center">
+        <div className="bg-[#292C36] md:mr-0 mr-3 md:ml-10 ml-0 rounded-xl pt-10 pb-10 mt-8 flex flex-col items-center justify-center">
           <h1 className="text-white text-3xl ">Electrical Engineer</h1>
           <h1 className="text-white text-2xl pt-4 ">I.M.E Revolution</h1>
           <h1 className="text-white text-1xl pt-4 ">1 Year</h1>
@@ -98,7 +101,7 @@ function WhatDo() {
             </div>
           </div>
         </div>
-        <div className="bg-[#292C36] ml-10 rounded-xl pt-10 pb-10 mt-8 flex flex-col items-center justify-center">
+        <div className="bg-[#292C36] md:mr-0 mr-3 md:ml-10 ml-0 rounded-xl pt-10 pb-10 mt-8 flex flex-col items-center justify-center">
           <h1 className="text-white text-3xl ">Automation Engineer</h1>
           <h1 className="text-white text-2xl pt-4 ">Thai Optical Group</h1>
           <h1 className="text-white text-1xl pt-4 ">6 Months</h1>

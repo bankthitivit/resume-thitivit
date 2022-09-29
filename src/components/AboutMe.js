@@ -1,9 +1,14 @@
 import ImageAboutMe from "../images/image-about-me.png";
 function AboutMe() {
   return (
-    <section className="pb-32 pt-32 flex flex-row items-start justify-center bg-[#212121]">
-      <img src={ImageAboutMe} />
-      <div className="w-96 ml-9">
+    <section
+      id="about-me"
+      className="pb-32 pt-32 flex md:flex-row flex-col items-start justify-center bg-[#212121]"
+    >
+      <div className="mr-16 ml-[12%]">
+        <img src={ImageAboutMe} />
+      </div>
+      <div className="w-96 md:ml-1 ml-[16%]">
         <h1 className="text-2xl text-[#4C70EF] pt-5">ABOUT ME</h1>
         <h1 className="text-4xl text-white pt-5">I'm Thitivit Pasomtrup</h1>
         <p className="text-[#B0ADAD] pt-8">
