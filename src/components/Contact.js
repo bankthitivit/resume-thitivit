@@ -13,7 +13,7 @@ function Contact() {
             Contact me
           </h1>
 
-          <div className=" mt-1 w-350 flex flex-row items-start justify-center">
+          <div className=" mt-1 flex flex-row items-start justify-center">
             <div className=" mt-6 w-50 flex flex-row items-start justify-center">
               <img src={IconsLine} alt="icons-line" className="w-12" />
               <span className="text-white mt-2 text-xl"> bankankk</span>

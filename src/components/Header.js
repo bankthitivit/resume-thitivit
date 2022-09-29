@@ -8,7 +8,7 @@ function Header() {
       className="flex flex-row items-start justify-end 
 text-lg text-white bg-[#292C36]"
     >
-      <div className="relative w-screen">
+      <div className="relative">
         <img src={BgHeaderImage} alt="display-coding" className="w-screen" />
         <div
           className="text-white absolute inset-0 flex flex-row 
