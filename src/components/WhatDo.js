@@ -48,16 +48,12 @@ function WhatDo() {
           <div>
             <div className="pt-6 w-96 ml-9 flex flex-col items-start justify-center">
               <p className="text-white text-xl">
-                Provide technical advice to customers
+                Provide technical advice to customers and sales engineer.
+                (National Instrument products)
               </p>
               <p className="text-[#B0ADAD] mt-2">
                 • Specifications
                 <br />• Usability
-              </p>
-            </div>
-            <div className="pt-6 w-96 ml-9 flex flex-col items-start justify-center">
-              <p className="text-white text-xl">
-                Devices support of National Instrument
               </p>
             </div>
             <div className="pt-6 w-96 ml-9 flex flex-col items-start justify-center">
