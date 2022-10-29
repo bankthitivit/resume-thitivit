@@ -20,22 +20,23 @@ text-lg text-white bg-[#292C36]"
             <img
               src={ProfileImage}
               alt="profile-image"
-              className="rounded-full md:w-[20%] w-[13%] h-[20%] md:mb-10 mt-10"
+              className="rounded-full md:w-[20%] w-[13%] h-[20%] md:mb-10"
             />
             <div className="md:text-[4rem] text-[2rem]">Thitivit Pasomtrup</div>
             <div className="md:text-xl text-sm md:mt-10 mt-1">
               I'm&nbsp;
               <Typed
+                className="text-2xl"
                 strings={[`Web Developer`, "Mobile Developer"]}
                 typeSpeed={80}
                 backSpeed={30}
                 loop
               />
             </div>
-            <div className="flex flex-row items-center justify-center mt-14 h-[50px]">
+            <div className="flex flex-row items-center justify-center md:mt-[10%] h-[50px]">
               <a href="https://www.linkedin.com/in/thitivit/">
                 <svg
-                  className="mr-10 w-[50px] h-[50px] hover:scale-150 transition ease-in-out duration-500 delay-50"
+                  className="mr-4 md:w-[50px] md:h-[50px] w-[30px] h-[30px] hover:scale-150 transition ease-in-out duration-500 delay-50"
                   fill="rgb(255, 255, 255)"
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 50 50"
@@ -47,7 +48,7 @@ text-lg text-white bg-[#292C36]"
               </a>
               <a href="https://www.facebook.com/thitivit.pasomtrup/">
                 <svg
-                  className="mr-10 w-[50px] h-[50px] hover:scale-150 transition ease-in-out duration-500 delay-50"
+                  className="mr-4 md:w-[50px] md:h-[50px] w-[30px] h-[30px] hover:scale-150 transition ease-in-out duration-500 delay-50"
                   fill="rgb(255, 255, 255)"
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 30 30"
@@ -57,7 +58,7 @@ text-lg text-white bg-[#292C36]"
               </a>
               <a href="https://github.com/bankthitivit">
                 <svg
-                  className=" w-[50px] h-[50px] hover:scale-150 transition ease-in-out duration-500 delay-50"
+                  className=" md:w-[50px] md:h-[50px] w-[30px] h-[30px] hover:scale-150 transition ease-in-out duration-500 delay-50"
                   fill="rgb(255, 255, 255)"
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 30 30"
