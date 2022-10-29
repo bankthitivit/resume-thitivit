@@ -19,7 +19,7 @@ text-lg text-white bg-[#292C36]"
           >
             <img
               src={ProfileImage}
-              alt="profile-image"
+              alt="profile"
               className="rounded-full md:w-[20%] w-[13%] h-[20%] md:mb-10"
             />
             <div className="md:text-[4rem] text-[2rem]">Thitivit Pasomtrup</div>

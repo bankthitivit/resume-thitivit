@@ -6,7 +6,7 @@ function AboutMe() {
       className="pb-32 pt-32 flex md:flex-row flex-col items-start justify-center bg-[#212121]"
     >
       <div className="mr-14 ml-[8%]">
-        <img src={ImageAboutMe} alt="image-aboutme" />
+        <img src={ImageAboutMe} alt="aboutme" />
       </div>
       <div className="w-80 md:ml-0 ml-[16%]">
         <h1 className="text-2xl text-[#4C70EF] pt-5">ABOUT ME</h1>
