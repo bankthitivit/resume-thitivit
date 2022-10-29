@@ -6,6 +6,7 @@ import { Educations } from "./components/Educations";
 import { Skills } from "./components/Skills";
 import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
+
 function App() {
   return (
     <div className="bg-[#212121]">
