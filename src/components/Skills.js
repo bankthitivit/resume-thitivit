@@ -7,18 +7,19 @@ import IconsTailwind from "../images/icons-tailwind.png";
 import IconsNodejs from "../images/icons-nodejs.png";
 import IconsMongodb from "../images/icons-mongodb.png";
 import IconsPostgresql from "../images/icons-postgresql.png";
+
 function Skills() {
   return (
     <section
       id="skills"
-      className="pr-40 md:pr-0 w-96 pb-32 pt-10 flex flex-row items-center justify-center bg-[#212121]"
+      className="pr-40 md:pr-0 w-96 pb-32 pt-20 flex flex-row items-center justify-center bg-[#212121]"
     >
       <div className="ml-[60%]">
         <h1 className="text-2xl text-[#4C70EF] pt-5 flex flex-row items-center justify-center">
-          TECH STACK
+          TECH STACKS
         </h1>
 
-        <div className="flex flex-row items-center justify-center mt-12">
+        <div className="flex flex-row items-center justify-center mt-4">
           <img
             src={IconsHtml}
             alt="icons-html"
@@ -29,26 +30,28 @@ function Skills() {
             alt="icons-css"
             className="w-16 m-5 hover:scale-150 transition ease-in-out duration-500 delay-50"
           />
+        </div>
+        <div className="flex flex-row items-center justify-center">
           <img
             src={IconsJs}
             alt="icons-js"
             className="w-16 m-5 hover:scale-150 transition ease-in-out duration-500 delay-50"
           />
-        </div>
-        <div className="flex flex-row items-center justify-center">
           <img
-            src={IconsReact}
-            alt="icons-react"
+            src={IconsNodejs}
+            alt="icons-nodejs"
             className="w-16 m-5 hover:scale-150 transition ease-in-out duration-500 delay-50"
           />
+        </div>
+        <div className="flex flex-row items-center justify-center">
           <img
             src={IconsTailwind}
             alt="icons-tailwind"
             className="w-16 m-5 hover:scale-150 transition ease-in-out duration-500 delay-50"
           />
           <img
-            src={IconsNodejs}
-            alt="icons-nodejs"
+            src={IconsReact}
+            alt="icons-react"
             className="w-16 m-5 hover:scale-150 transition ease-in-out duration-500 delay-50"
           />
         </div>
@@ -63,11 +66,13 @@ function Skills() {
             alt="icons-mongodb"
             className="w-16 m-5 hover:scale-150 transition ease-in-out duration-500 delay-50"
           />
+        </div>
+        <div className="flex flex-row items-center justify-center">
           <img
             src={IconsGit}
             alt="icons-git"
             className="w-16 m-5 hover:scale-150 transition ease-in-out duration-500 delay-50"
-          />{" "}
+          />
         </div>
       </div>
     </section>
