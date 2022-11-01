@@ -22,7 +22,7 @@ function WhatDo() {
           autoPlay
           interval={2000}
         >
-          <div className=" bg-[#292C36] rounded-xl sm:mr-0 mr-3 sm:ml-10 ml-0 h-[550px] flex flex-col items-center justify-center">
+          <div className=" bg-[#292C36] rounded-xl pb-10 sm:mr-0 mr-3 sm:ml-10 ml-0 h-[550px] flex flex-col items-center justify-center">
             <h1 className="text-white text-3xl ">Studying</h1>
             <div>
               <div className=" mt-6 w-96 ml-9 flex flex-col items-start justify-center">
@@ -54,7 +54,7 @@ function WhatDo() {
               </div>
             </div>
           </div>
-          <div className="bg-[#292C36] md:mr-0 mr-3 md:ml-10 ml-0 rounded-xl pt-10 pb-10 h-[550px] flex flex-col items-center justify-start">
+          <div className="bg-[#292C36] md:mr-0 mr-3 md:ml-10 ml-0 rounded-xl  pb-10 h-[550px] flex flex-col items-center justify-center">
             <h1 className="text-white text-3xl ">Software Engineer</h1>
             <h1 className="text-white text-2xl pt-4 ">Trinergy Instrument</h1>
             <h1 className="text-white text-1xl pt-4 ">1 Year</h1>
@@ -79,7 +79,7 @@ function WhatDo() {
               </div>
             </div>
           </div>
-          <div className="bg-[#292C36] md:mr-0 mr-3 md:ml-10 ml-0 rounded-xl pt-10 pb-10 h-[550px] flex flex-col items-center justify-center">
+          <div className="bg-[#292C36] md:mr-0 mr-3 md:ml-10 ml-0 rounded-xl  pb-10 h-[550px] flex flex-col items-center justify-center">
             <h1 className="text-white text-3xl ">Electrical Engineer</h1>
             <h1 className="text-white text-2xl pt-4 ">I.M.E Revolution</h1>
             <h1 className="text-white text-1xl pt-4 ">1 Year</h1>
@@ -104,7 +104,7 @@ function WhatDo() {
               </div>
             </div>
           </div>
-          <div className="bg-[#292C36] md:mr-0 mr-3 md:ml-10 ml-0 rounded-xl pt-10 pb-10 h-[550px] flex flex-col items-center justify-center">
+          <div className="bg-[#292C36] md:mr-0 mr-3 md:ml-10 ml-0 rounded-xl pb-10 h-[550px] flex flex-col items-center justify-center">
             <h1 className="text-white text-3xl ">Automation Engineer</h1>
             <h1 className="text-white text-2xl pt-4 ">Thai Optical Group</h1>
             <h1 className="text-white text-1xl pt-4 ">6 Months</h1>
