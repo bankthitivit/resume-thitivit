@@ -22,8 +22,9 @@ function WhatDo() {
           showStatus={false}
           swipeable
           emulateTouch
-          interval={2000}
-          //autoPlay
+          interval={1500}
+          transitionTime={700}
+          autoPlay
           showArrows={true}
           showThumbs={true}
         >
