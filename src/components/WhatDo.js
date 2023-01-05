@@ -13,126 +13,139 @@ function WhatDo() {
       </div>
       <div className="flex md:flex-row flex-col items-start justify-start">
         <Carousel
-          emulateTouch
-          centerMode
-          showStatus={false}
-          width={700}
-          swipeable
           infiniteLoop
-          autoPlay
+          axis="horizontal"
+          centerMode
+          centerSlidePercentage="50"
+          width={1100}
+          showIndicators={false}
+          showStatus={false}
+          swipeable
+          emulateTouch
           interval={2000}
+          //autoPlay
+          showArrows={true}
+          showThumbs={true}
         >
-          <div className=" bg-[#292C36] rounded-xl pb-10 sm:mr-0 mr-3 sm:ml-10 ml-0 h-[550px] flex flex-col items-center justify-center">
-            <h1 className="text-white text-3xl ">Studying</h1>
-            <div>
-              <div className=" mt-6 w-96 ml-9 flex flex-col items-start justify-center">
-                <h2 className="text-white text-2xl">2019</h2>
-                <p className="text-[#B0ADAD] mt-2">
-                  • Project Smart Home ( C++ )
-                </p>
-              </div>
-              <div className="mt-6 ml-9 flex flex-col items-start justify-center">
-                <h2 className="text-white text-2xl">2018</h2>
+          <div className="bg-[#292C36] md:mr-0 mr-3 md:ml-10 ml-0 pl-20 rounded-xl  pb-10 h-[550px] flex flex-col items-start justify-start">
+            <h1 className="text-[#b0c1ff] text-3xl mt-10">
+              Full-Stack Developer
+            </h1>
+            <h1 className="text-[#b0c1ff] text-2xl pt-4 ">TechUp Bootcamp</h1>
+            <h1 className="text-[#B0ADAD] text-1xl pt-4 ">4 Months</h1>
+            <div className="flex flex-col items-start justify-start">
+              <div className="mt-0 flex flex-col items-start justify-center">
                 <p className=" text-[#B0ADAD] mt-2">
-                  • Joined the Delta Industrial Automation Training Program 2018
-                </p>
-                <p className="text-[#B0ADAD] mt-2">
-                  • Attended the seminar of many companies
+                  Take course for learning full-time
                 </p>
               </div>
-              <div className="mt-6 ml-9 flex flex-col items-start justify-center">
-                <h2 className="text-white text-2xl ">2016</h2>
-                <p className="text-[#B0ADAD] mt-2">
-                  • Worked at Y.NET Co.,Ltd in the field of electrical
-                </p>
+              <div className="mt-6 flex flex-col items-start justify-center">
+                <h2 className="text-white text-xl">Mini Project</h2>
+                <p className=" text-[#B0ADAD] mt-0">• Resume website</p>
               </div>
-              <div className="pt-6 ml-9 flex flex-col items-start justify-center">
-                <h2 className="text-white text-2xl">2015</h2>
-                <p className="text-[#B0ADAD] mt-2">
-                  • Worked at McDonald’s in general staff
+              <div className="mt-6 flex flex-col items-start justify-center">
+                <h2 className="text-white text-xl">Final Project</h2>
+                <p className=" text-[#B0ADAD] mt-0">
+                  • Platform Online Learning
                 </p>
               </div>
             </div>
           </div>
-          <div className="bg-[#292C36] md:mr-0 mr-3 md:ml-10 ml-0 rounded-xl  pb-10 h-[550px] flex flex-col items-center justify-center">
-            <h1 className="text-white text-3xl ">Software Engineer</h1>
-            <h1 className="text-white text-2xl pt-4 ">Trinergy Instrument</h1>
-            <h1 className="text-white text-1xl pt-4 ">1 Year</h1>
+          <div className="bg-[#292C36] md:mr-0 mr-3 md:ml-10 ml-0 pl-20 rounded-xl  pb-10 h-[550px] flex flex-col items-start justify-start">
+            <h1 className="text-[#b0c1ff] text-3xl mt-10">Software Engineer</h1>
+            <h1 className="text-[#b0c1ff] text-2xl pt-4 ">
+              Trinergy Instrument
+            </h1>
+            <h1 className="text-[#B0ADAD] text-1xl pt-4 ">1 Year</h1>
             <div className="flex flex-col items-start justify-start">
-              <div className="mt-6 ml-6 flex flex-col items-start justify-center">
+              <div className="mt-6 ml-0 flex flex-col items-start justify-center">
                 <h2 className="text-white text-xl">
-                  Provide technical advice to customers and sales engineer
-                  (National Instrument products)
+                  Support sales engineer in technical field
                 </h2>
-                <p className=" text-[#B0ADAD] mt-2 ml-9">• Specifications</p>
-                <p className="text-[#B0ADAD] ml-9">• Usability</p>
+                <p className=" text-[#B0ADAD] mt-0 ">• Specifications</p>
+                <p className="text-[#B0ADAD] ">• Usability</p>
               </div>
-              <div className="mt-6 ml-16 flex flex-col items-start justify-center">
-                <h2 className="text-white text-xl">
-                  Develop software LabVIEW automation system
-                </h2>
-                <p className=" text-[#B0ADAD] mt-2">• Data logger program</p>
+              <div className="mt-6 ml-0 flex flex-col items-start justify-center">
+                <h2 className="text-white text-xl">Develop software LabVIEW</h2>
+                <p className=" text-[#B0ADAD] mt-0">
+                  • Data logger program for research data
+                </p>
                 <p className="text-[#B0ADAD]">
-                  • Automation calibrate instrument program
+                  • Automation calibrate instrument program for reduce time
                 </p>
                 <p className="text-[#B0ADAD]">• Control oscilloscope program</p>
               </div>
             </div>
           </div>
-          <div className="bg-[#292C36] md:mr-0 mr-3 md:ml-10 ml-0 rounded-xl  pb-10 h-[550px] flex flex-col items-center justify-center">
-            <h1 className="text-white text-3xl ">Electrical Engineer</h1>
-            <h1 className="text-white text-2xl pt-4 ">I.M.E Revolution</h1>
-            <h1 className="text-white text-1xl pt-4 ">1 Year</h1>
-            <div>
+          <div className="bg-[#292C36] md:mr-0 mr-3 md:ml-10 ml-0 pl-16 rounded-xl  pb-10 h-[550px] flex flex-col items-start justify-start">
+            <h1 className="text-[#b0c1ff] text-3xl mt-10">
+              Electrical Engineer
+            </h1>
+            <h1 className="text-[#b0c1ff] text-2xl pt-4 ">I.M.E Revolution</h1>
+            <h1 className="text-[#B0ADAD] text-1xl pt-4 ">1 Year</h1>
+            <div className="ml-0 w-[500px]">
               <div className="mt-6 ml-0 flex flex-col items-start justify-center">
                 <h2 className="text-white text-xl">Robot and vision systems</h2>
-                <p className="text-[#B0ADAD]">• Control oscilloscope program</p>
+                <p className="text-[#B0ADAD]">
+                  • Develop robot programming with vision system
+                </p>
               </div>
               <div className="mt-6 ml-0 flex flex-col items-start justify-center">
                 <h2 className="text-white text-xl">
                   Program PLC,HMI ( Mitsubishi )
                 </h2>
-                <p className="text-[#B0ADAD]">• Count pills machine</p>
-                <p className="text-[#B0ADAD]">• Take rubber handle machine</p>
-                <p className="text-[#B0ADAD]">• Packing pills machine</p>
+                <p className="text-[#B0ADAD]">
+                  • Develop count pills machine for increase production
+                </p>
+                <p className="text-[#B0ADAD]">
+                  • Built take rubber handle machine for increase production
+                </p>
+                <p className="text-[#B0ADAD]">
+                  • Built Packing pills machine for increase production and
+                  <br />
+                  reduce staff
+                </p>
               </div>
               <div className="mt-6 ml-0 flex flex-col items-start justify-center">
                 <h2 className="text-white text-xl">Program AGV (Arduino)</h2>
                 <p className="text-[#B0ADAD]">
-                  • Robot track lines in industry factory ( C++ )
+                  • Robot track lines in industry for reduce staff to transport
+                  <br />
+                  the product
                 </p>
               </div>
             </div>
           </div>
-          <div className="bg-[#292C36] md:mr-0 mr-3 md:ml-10 ml-0 rounded-xl pb-10 h-[550px] flex flex-col items-center justify-center">
-            <h1 className="text-white text-3xl ">Automation Engineer</h1>
-            <h1 className="text-white text-2xl pt-4 ">Thai Optical Group</h1>
-            <h1 className="text-white text-1xl pt-4 ">6 Months</h1>
+          <div className="bg-[#292C36] md:mr-0 mr-3 md:ml-10 ml-0 rounded-xl pb-10 pl-20 h-[550px] flex flex-col items-start justify-start">
+            <h1 className="text-[#b0c1ff] text-3xl mt-10">
+              Automation Engineer
+            </h1>
+            <h1 className="text-[#b0c1ff] text-2xl pt-4 ">
+              Thai Optical Group
+            </h1>
+            <h1 className="text-[#B0ADAD] text-1xl pt-4 ">6 Months</h1>
+
             <div>
               <div className="mt-6 ml-0 flex flex-col items-start justify-center">
-                <h2 className="text-white text-xl">
-                  Design of electrical machinery
-                </h2>
+                <h2 className="text-white text-xl">Electrical System Design</h2>
+              </div>
+              <div className="mt-6 ml-0 flex flex-col items-start justify-center">
+                <h2 className="text-white text-xl">Maintenance Machine</h2>
               </div>
               <div className="mt-6 ml-0 flex flex-col items-start justify-center">
                 <h2 className="text-white text-xl">
-                  Program PLC ( Delta ),HMI,Robo IAI
+                  Program PLC, HMI, Robo IAI
                 </h2>
                 <p className="text-[#B0ADAD]">
-                  • Automatic brushing lens machine
+                  • Develop automatic brushing lens machine
                 </p>
                 <p className="text-[#B0ADAD]">
-                  • Automatic lens filling machine
+                  • Develop automatic lens filling machine
                 </p>
                 <p className="text-[#B0ADAD]">
-                  • Develop detects lens color machine ( C# )
+                  • Develop detect lens color machine ( C# )
                 </p>
-              </div>
-              <div className="mt-6 ml-0 flex flex-col items-start justify-center">
-                <h2 className="text-white text-xl">AGV</h2>
-                <p className="text-[#B0ADAD]">• Automatic charging station</p>
-                <p className="text-[#B0ADAD]">• Maintenance• Maintenance</p>
-                <p className="text-[#B0ADAD]">• Re-built ( C++ )</p>
+                <p className="text-[#B0ADAD]">• Programming AGV ( C++ )</p>
               </div>
             </div>
           </div>
